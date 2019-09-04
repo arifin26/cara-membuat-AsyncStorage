@@ -9,13 +9,13 @@
 */
 import React, {Component} from 'react';
 import {Platform,Stylesheet,View,Text} from 'react-native'
-import LoginForm from './test/logindari';
+import  BelajarAsyncStorage from './test/ascyinstronge'
 
 
 export default class App extends Component{
   render(){
     return(
-      <LoginForm />
+      <BelajarAsyncStorage />
     )
   };
   
